@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "15e8a7fe6461be7ecf988e9265c1919c",
+    "packages": [
+        {
+            "name": "jamesmoss/toml",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jamesmoss/toml.git",
+                "reference": "88885ac70cf1116972d262ee80ec2965d2362e26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jamesmoss/toml/zipball/88885ac70cf1116972d262ee80ec2965d2362e26",
+                "reference": "88885ac70cf1116972d262ee80ec2965d2362e26",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Toml": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Moss",
+                    "email": "email@jamesmoss.co.uk",
+                    "homepage": "http://jamesmoss.co.uk"
+                }
+            ],
+            "description": "A parser for TOML implemented in PHP.",
+            "homepage": "http://github.com/jamesmoss/toml",
+            "keywords": [
+                "github",
+                "mojombo",
+                "toml"
+            ],
+            "support": {
+                "issues": "https://github.com/jamesmoss/toml/issues",
+                "source": "https://github.com/jamesmoss/toml/tree/master"
+            },
+            "time": "2014-02-25T09:21:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "leonelquinteros/php-toml": "^1.1"
+    }
+}

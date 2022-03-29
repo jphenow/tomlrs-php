@@ -1,0 +1,120 @@
+# This is a TOML document
+
+title = "TOML Example"
+
+# This is a TOML comment
+
+# This is a multiline
+# TOML comment
+
+str1 = "I'm a string."
+str2 = "You can \"quote\" me."
+str3 = "Name\tJos\u00E9\nLoc\tSF."
+
+str4 = "I'm a string."
+str5 = "You can \"quote\" me."
+str6 = "Name\tJos\u00E9\nLoc\tSF."
+
+str7 = "I'm a string."
+str8 = "You can \"quote\" me."
+str9 = "Name\tJos\u00E9\nLoc\tSF."
+
+str10 = "I'm a string."
+str11 = "You can \"quote\" me."
+str12 = "Name\tJos\u00E9\nLoc\tSF."
+
+str13 = "I'm a string."
+str14 = "You can \"quote\" me."
+str15 = "Name\tJos\u00E9\nLoc\tSF."
+
+str16 = "I'm a string."
+str17 = "You can \"quote\" me."
+str18 = "Name\tJos\u00E9\nLoc\tSF."
+str19 = "Name\tJos\u00E9\nLoc\tSF."
+
+str01 = "I'm a string."
+str02 = "You can \"quote\" me."
+str03 = "Name\tJos\u00E9\nLoc\tSF."
+
+str04 = "I'm a string."
+str05 = "You can \"quote\" me."
+str06 = "Name\tJos\u00E9\nLoc\tSF."
+
+str07 = "I'm a string."
+str08 = "You can \"quote\" me."
+str09 = "Name\tJos\u00E9\nLoc\tSF."
+
+str010 = "I'm a string."
+str011 = "You can \"quote\" me."
+str012 = "Name\tJos\u00E9\nLoc\tSF."
+
+str013 = "I'm a string."
+str014 = "You can \"quote\" me."
+str015 = "Name\tJos\u00E9\nLoc\tSF."
+
+str016 = "I'm a string."
+str017 = "You can \"quote\" me."
+str018 = "Name\tJos\u00E9\nLoc\tSF."
+str019 = "Name\tJos\u00E9\nLoc\tSF."
+
+# integers
+# int1 = +99 # TOML v1
+[ones]
+int0 = 42
+int1 = 0
+int2 = -17
+int3 = 42
+int4 = 0
+int5 = -17
+int6 = 42
+int7 = 0
+int8 = -17
+int9 = -17
+
+[ones.double-digit]
+int10 = 42
+int11 = 0
+int12 = -17
+int13 = 42
+int14 = 0
+int15 = -17
+int16 = 42
+int17 = 0
+int18 = -17
+int19 = -17
+
+# offset datetime
+odt1 = "1979-05-27T07:32:00Z"
+odt2 = "1979-05-27T00:32:00-07:00"
+odt3 = "1979-05-27T00:32:00.999999-07:00"
+
+# local datetime
+ldt1 = "1979-05-27T07:32:00"
+ldt2 = "1979-05-27T00:32:00.999999"
+
+# local date
+ld1 = "1979-05-27"
+
+# local time
+lt1 = "07:32:00"
+lt2 = "00:32:00.999999"
+
+[owner]
+dob = "1979-05-27T07:32:00-08:00"
+name = "Tom Preston-Werner"
+
+[database]
+data = [["delta", "phi"], [3.14]]
+enabled = true
+ports = [8000, 8001, 8002]
+# temp_targets = {cpu = 79.5, case = 72.0} # TOML v1
+
+[servers]
+
+[servers.alpha]
+ip = "10.0.0.1"
+role = "frontend"
+
+[servers.beta]
+ip = "10.0.0.2"
+role = "backend"

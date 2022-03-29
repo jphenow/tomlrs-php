@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fa8916f8a03e3ce64f9ec2e87df97dce",
+    "packages": [
+        {
+            "name": "leonelquinteros/php-toml",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leonelquinteros/php-toml.git",
+                "reference": "45ac0f9820f40ed153c100eae1669f91bb5fd27b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leonelquinteros/php-toml/zipball/45ac0f9820f40ed153c100eae1669f91bb5fd27b",
+                "reference": "45ac0f9820f40ed153c100eae1669f91bb5fd27b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./src/Toml.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Clear"
+            ],
+            "authors": [
+                {
+                    "name": "Leonel Quinteros",
+                    "email": "leonel.quinteros@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "PHP parser for TOML language ( https://github.com/toml-lang/toml )",
+            "homepage": "http://github.com/leonelquinteros/php-toml",
+            "keywords": [
+                "class",
+                "leonelquinteros",
+                "lib",
+                "library",
+                "mojombo",
+                "package",
+                "parser",
+                "php",
+                "toml"
+            ],
+            "support": {
+                "issues": "https://github.com/leonelquinteros/php-toml/issues",
+                "source": "https://github.com/leonelquinteros/php-toml"
+            },
+            "time": "2019-07-10T21:19:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

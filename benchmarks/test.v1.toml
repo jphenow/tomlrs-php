@@ -1,0 +1,128 @@
+# This is a TOML document
+
+title = "TOML Example"
+
+# This is a TOML comment
+
+# This is a multiline
+# TOML comment
+
+str1 = "I'm a string."
+str2 = "You can \"quote\" me."
+str3 = "Name\tJos\u00E9\nLoc\tSF."
+
+# TOML v1
+str4 = """
+Roses are red
+Violets are blue"""
+
+# TOML v1
+str5 = """\
+  The quick brown \
+  fox jumps over \
+  the lazy dog.\
+  """
+
+# TOML v1
+path = 'C:\Users\nodejs\templates'
+path2 = '\\User\admin$\system32'
+quoted = 'Tom "Dubs" Preston-Werner'
+regex = '<\i\c*\s*>'
+
+# TOML v1
+lines = '''
+The first newline is
+trimmed in raw strings.
+All other whitespace
+is preserved.
+'''
+re = '''\d{2} apps is t[wo]omany'''
+
+# integers
+int1 = +99
+int2 = 42
+int3 = 0
+int4 = -17
+
+# hexadecimal with prefix `0x`
+# TOML v1
+hex1 = 0xDEADBEEF
+hex2 = 0xdeadbeef
+hex3 = 0xdead_beef
+
+# octal with prefix `0o`
+# TOML v1
+oct1 = 0o01234567
+oct2 = 0o755
+
+# binary with prefix `0b`
+# TOML v1
+bin1 = 0b11010110
+
+# fractional
+# TOML v1
+float1 = +1.0
+float2 = 3.1415
+float3 = -0.01
+
+# exponent
+# TOML v1
+float4 = 5e+22
+float5 = 1e06
+float6 = -2E-2
+
+# both
+# TOML v1
+float7 = 6.626e-34
+
+# separators
+# TOML v1
+float8 = 224_617.445_991_228
+
+# infinity
+# TOML v1
+infinite1 = inf # positive infinity
+infinite2 = +inf # positive infinity
+infinite3 = -inf # negative infinity
+
+# not a number
+# TOML v1
+not1 = nan
+not2 = +nan
+not3 = -nan
+
+# offset datetime
+odt1 = 1979-05-27T07:32:00Z
+odt2 = 1979-05-27T00:32:00-07:00
+odt3 = 1979-05-27T00:32:00.999999-07:00
+
+# local datetime
+ldt1 = 1979-05-27T07:32:00
+ldt2 = 1979-05-27T00:32:00.999999
+
+# local date
+ld1 = 1979-05-27
+
+# local time
+lt1 = 07:32:00
+lt2 = 00:32:00.999999
+
+[owner]
+dob = 1979-05-27T07:32:00-08:00
+name = "Tom Preston-Werner"
+
+[database]
+data = [["delta", "phi"], [3.14]]
+enabled = true
+ports = [8000, 8001, 8002]
+temp_targets = {cpu = 79.5, case = 72.0}
+
+[servers]
+
+[servers.alpha]
+ip = "10.0.0.1"
+role = "frontend"
+
+[servers.beta]
+ip = "10.0.0.2"
+role = "backend"
