@@ -10,9 +10,9 @@ I will not be using PHP professionally for the foreseeable future, so if you'd l
 ## Building, extending PHP
 
 ```sh
-$> cargo build
+$> cargo build --release
 # in php.ini set extension=/path-to-project/target/debug/libtomlrs_php.dylib or:
-$> php -dextension=path-to-project/target/debug/libtomlrs_php.dylib <your php file>
+$> php -dextension=path-to-project/target/release/libtomlrs_php.dylib <your php file>
 ```
 
 # PHP
