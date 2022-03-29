@@ -1,0 +1,8 @@
+foo = "bar"
+
+[section]
+one = 2
+boolean = true
+
+[section.subsection]
+an-array = ["of", "values"]
